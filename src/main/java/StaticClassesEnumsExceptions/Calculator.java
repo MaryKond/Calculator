@@ -23,7 +23,8 @@ public enum Type{
 
     public static double calculate(double a, double b, Type type){
 
-    Logger.info("Running method Calculate");
+    Logger.info("Running    method Calculate");
+
 
         double result=0;
         // we can do it with if else
