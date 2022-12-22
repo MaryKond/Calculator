@@ -18,7 +18,8 @@ public enum Type{
         MULTIPLICATION,
         SUMMARY,
         DIVISION,
-        SUBTRACTION
+        SUBTRACTION,
+        PERCENTAGE
     }
 
     public static double calculate(double a, double b, Type type){
