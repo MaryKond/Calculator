@@ -22,7 +22,10 @@ public class CalculatorTest {
     public void beforeTest(){
         System.out.println("Before each method");
     }
-
+    @AfterEach
+    public void afterTest(){
+        System.out.println("After each method");
+    }
 
     @ParameterizedTest
     @ValueSource(ints={-10,0, 27,67803039, -4567899})
